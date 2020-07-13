@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Sep, 2019, 4:13:11 PM
+    Author     : Shivay
+*/
+
+i{
+	line-height: 2;
+	
+}
+
+.hide {
+  display: none;
+}
+
+.headNav li:hover {
+  background-color: #fff;
+}
+.headNav li:hover:before {
+  background-color: #1a1a1a;
+}
+
+.headNav li:hover a {
+  color: #606c88;
+}
+.headNav li:before {
+  position: relative;
+  left: 0;
+  width: 0.225rem;
+  height: 100%;
+  content: "";
+  background: #0b8793;
+  z-index: 1;
+  transition: background 90ms;
+}
+.headNav ul {
+    position: fixed;
+  margin-top: 0.20rem;
+  margin-right: 4px;
+  margin-bottom: 0.40rem;
+  margin-left: 4px;
+  padding: 0;
+  background: #7AA1D2;
+  list-style: none;
+}
+.headNav li {
+  position: relative;
+  clear: both;
+  width: 100%;
+  padding: 0;
+  transition: background 90ms;
+  border: #8e9eab 7px;
+  border-style: outset;
+}
+.headNav li a {
+  display: flex;
+  padding: 0.5vh;
+}
+.headNav a {
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+  color: #fefefe;
+  text-decoration: none;
+  transition: color 90ms;
+}
+.headNav a span {
+  position: relative;
+  display: block;
+  z-index: 0;
+  font-family: Roboto;
+  text-indent: -30em;
+  white-space: nowrap;
+  transition: text-indent 90ms ease-in-out;
+}
+
+.main-head {
+  position: fixed;
+  left: 1%;
+  margin:auto auto;
+  width: 77px;
+  height: 26.7%;
+  z-index: 1;
+  background: none;
+  transition: width 90ms;
+  display: flex;
+
+}
+.main-head:hover {
+  width: 244px;
+}
+.main-head:hover .headNav li:nth-of-type(1) span {
+  transition-delay: 90ms;
+}
+.main-head:hover .headNav li:nth-of-type(2) span {
+  transition-delay: 90ms;
+}
+.main-head:hover .headNav li:nth-of-type(3) span {
+  transition-delay: 90ms;
+}
+.main-head:hover .headNav li:nth-of-type(4) span {
+  transition-delay: 90ms;
+}
+.main-head:hover .headNav span {
+  text-indent: 0;
+}
+
+
+
+#additionalInformationDiv, #academicsInformationDiv{
+    display:none;
+}
+
+  .wizard-card {
+      right:12%;
+  }

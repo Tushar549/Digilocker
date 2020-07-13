@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 Oct, 2019, 2:48:09 AM
+    Author     : Shivay
+*/
+
+.picture {
+    width: 106px;
+    height: 106px;
+    background-color: #999999;
+    border: 4px solid #2ca8ff;
+    color: #FFFFFF;
+    border-radius: 5%;
+    margin: 5px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s; 
+}
+
+.wide{
+    width: 256px;
+    height: 206px;
+    
+}
+#trainingInternshipCertificate-error{
+    align-items: center;
+    margin: auto auto;
+}
+.form-group.has-error .form-control {
+    box-shadow: none; }
+  .form-group.has-error.is-focused .form-control {
+    background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); }
+  .form-group.has-error label.control-label,
+  .form-group.has-error .help-block {
+    color: #f44336; }
+  
+  .has-error .form-control {
+    color: #f44336;
+    opacity: 1; }
+
+    .error{
+        color:red;
+    }
+    

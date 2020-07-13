@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Sep, 2019, 9:34:15 PM
+    Author     : Shivay
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{   justify-content: center;
+        background: #FFF;
+        position: relative;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+
+.display{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    overflow-y: hidden;
+    padding: 20px;
+}
+/*- - - - - - C O N T A C T - C A R D S - - - - - */
+
+.card{
+    display: inline-block;
+    width: 200px; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
+    height: 290px;
+    overflow: hidden;
+    margin: 2%;
+    background: rgb(63,163,253);
+    background: linear-gradient(0deg, rgba(63,163,253,1) 0%, rgba(13,67,141,1) 100%);
+
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+}
+
+.card:hover{
+    margin-top: -10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.card1{
+    display: inline-block;
+    width: 200px; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
+    height: 290px;
+    overflow: hidden;
+    margin: 2%;
+    border-radius: 15px;
+    background: rgb(115,217,54);
+    background: linear-gradient(0deg, rgba(115,217,54,1) 0%, rgba(35,127,20,1) 100%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+}
+
+.card1:hover{
+    margin-top: -10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card2{
+    display: inline-block;
+    width: 200px; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
+    height: 290px;
+    overflow: hidden;
+    margin: 2%;
+    background: rgb(250,76,42);
+    background: linear-gradient(0deg, rgba(250,76,42,1) 0%, rgba(156,55,21,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+}
+
+.card2:hover{
+    margin-top: -10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.banner{
+    height: 205px;
+    width: 100%;
+    padding-top: 30px;
+    background: rgb(175,236,244);
+    background: linear-gradient(0deg, rgba(175,236,244,1) 0%, rgba(32,63,244,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+.banner1{
+    height: 205px;
+    width: 100%;
+    padding-top: 30px;
+    background: rgb(124,245,127);
+    background: linear-gradient(0deg, rgba(124,245,127,1) 0%, rgba(77,153,58,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    height: 205px;
+    width: 100%;
+    padding-top: 30px;
+    background: rgb(244,139,121);
+    background: linear-gradient(0deg, rgba(244,139,121,1) 0%, rgba(196,39,39,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.avatar{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-color: #F1F1F1;
+    border-radius: 100%;
+}
+
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    margin-top: 45px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    right: 0px;
+    width: 100%;
+    color: #FFFFFF;
+    z-index: 4;
+    text-align: right;
+    margin-top: 5%;
+    text-shadow: 0 0px 1px black; }
+.footer a {
+    color: #008081; }
+
+
+
